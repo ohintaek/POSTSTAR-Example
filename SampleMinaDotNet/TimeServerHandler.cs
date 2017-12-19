@@ -15,6 +15,8 @@ namespace SampleMinaDotNet
             Console.WriteLine(cause);
         }
 
+
+
         public override void MessageReceived(IoSession session, object message)
         {
             base.MessageReceived(session, message);
