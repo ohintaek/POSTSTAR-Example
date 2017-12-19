@@ -29,6 +29,7 @@ namespace SampleMinaDotNet
                 {
                     String receiveMsg = e.Message.ToString();
 
+
                     // "Quit" ? let's get out ...
                     if (receiveMsg.Trim().Equals("quit", StringComparison.OrdinalIgnoreCase))
                     {
