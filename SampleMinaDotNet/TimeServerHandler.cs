@@ -19,7 +19,6 @@ namespace SampleMinaDotNet
         {
             base.MessageReceived(session, message);
             Console.WriteLine(message);
-            Console.WriteLine("숙소PC에서 코딩했어요!!");
         }
 
         public override void MessageSent(IoSession session, object message)
